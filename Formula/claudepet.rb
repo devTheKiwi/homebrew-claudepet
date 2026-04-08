@@ -4,7 +4,6 @@ class Claudepet < Formula
   url "https://github.com/devTheKiwi/ClaudePet.git", tag: "v2.3.1"
   license "MIT"
 
-  depends_on xcode: ["14.0", :build]
   depends_on macos: :ventura
 
   def install
